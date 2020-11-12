@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Clone o repositório em sua máquina:
 
-`git clone https://github.com/BrunoLagoa/vercel-clone`
+`git clone https://github.com/BrunoLagoa/css.git`
 
 Execute o arquivo `index.html`
 
@@ -48,7 +48,7 @@ Execute o arquivo `index.html`
 <br/><br/>
 
 <p>Site publicado em:</p>
-<a alt="Bruno Castro" target="_blank" rel="noopener noreferrer" href="https://brunolagoa.github.io/vercel-clone/">Clique aqui para visualizar</a>
+<a alt="Bruno Castro" target="_blank" rel="noopener noreferrer" href="https://brunolagoa.github.io/css">Clique aqui para visualizar</a>
 
 ---
 
