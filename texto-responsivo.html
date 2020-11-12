@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criando texto responsivo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: max(60px, 4vw);
+    font-family: Roboto, "Opens Sans", sans-serif;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 10px;
+  }
+
+  .max {
+    background: #98c1d9;
+  }
+
+  .max h1 {
+    /* max: pega o maior valor entre os dois */
+    font-size: max(60px, 5vw);
+  }
+
+  .min {
+    /* min: pega o menor valor entre os dois */
+    background: #ee6c4d;
+  }
+
+  .min h1 {
+    font-size: min(150px, 10vw);
+  }
+
+</style>
+<body>
+  <section class="max">
+    <h1>Texto responsivo</h1>
+  </section>
+
+  <section class="min">
+    <h1>Isso é demais!</h1>
+  </section>
+</body>
+</html>
